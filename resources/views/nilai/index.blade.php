@@ -6,19 +6,18 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">Nilai Mahasiswa
-                <a href="{{ route('tambah.nilai') }}" class="btn btn-md btn-dark float-right"> <i class="fa fa-fw fa-plus-circle"></i>Tambah Nilai</a>
-
+                <a href="{{ route('tambah.nilai') }}" class="btn btn-md btn-dark float-right"> <i class="fa fa-fw fa-plus-circle"></i>Tambah Nilai</a></div>
                 <div class="card-body">
                    <div class="table-responsive">
                     <table class="table table-bordered">
                     <tr>
-                            <th>No.</th>
-                            <th>NPM</th>
-                            <th>Nama Lengkap</th>
-                            <th>Nama Makul</th>
-                            <th>SKS</th>
-                            <th>Nilai</th>
-                            <th>AKSI</th>
+                            <th style="text-align: center;">No.</th>
+                            <th style="text-align: center;">NPM</th>
+                            <th style="text-align: center;">Nama Lengkap</th>
+                            <th style="text-align: center;">Nama Makul</th>
+                            <th style="text-align: center;">SKS</th>
+                            <th style="text-align: center;">Nilai</th>
+                            <th style="text-align: center;">AKSI</th>
                         </tr>
                         @php
                             $no = 1;
@@ -47,4 +46,3 @@
     </div>
 </div>
 @endsection
-
